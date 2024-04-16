@@ -7,7 +7,7 @@ public class LetterReplacement {
 	public static String letterReplacement(String text, String letterToreplace, String letterToreplaceWith) {
 		
 		String newText = text;
-		//newText.replaceAll(letterToreplace, letterToreplaceWith); //did not work
+		
 		for( ; newText.contains(letterToreplace); ){
 			StringBuilder newTextBuilt = new StringBuilder();
 			int index = newText.indexOf(letterToreplace);
